@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Neo Latina";
+  src: url("neolatina.eot");
+  src: local("Neo Latina Bold"), local("neolatina"),
+    url("neolatina.eot?#iefix") format("embedded-opentype"),
+    url("neolatina.woff2") format("woff2"), url("neolatina.woff") format("woff"),
+    url("neolatina.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Latina";
+  src: url("neo-latina.eot");
+  src: local("Neo Latina"), local("neo-latina"),
+    url("neo-latina.eot?#iefix") format("embedded-opentype"),
+    url("neo-latina.woff2") format("woff2"),
+    url("neo-latina.woff") format("woff"),
+    url("neo-latina.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: local("Nexa  Thin"), local("Nexa--Thin"),
+    url("Nexa-Thin.woff2") format("woff2"), url("Nexa-Thin.woff") format("woff"),
+    url("Nexa-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
