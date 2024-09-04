@@ -17,8 +17,10 @@
         <ion-icon name="logo-whatsapp"></ion-icon>
     </span>
 </a>
-<script src="https://widget.trustmary.com/hsLkJQHY0"></script>
-<div class="bokunWidget"
+<div id="g_reviews">
+    <script src="https://widget.trustmary.com/hsLkJQHY0"></script>
+</div>
+<div class="bokunWidget" id="bokunWidget"
     data-src="https://widgets.bokun.io/online-sales/6dbc1ca4-5a8e-4187-b0de-8bac32e6b82e/experience-calendar/901778">
 </div>
 <noscript>Please enable javascript in your browser to book</noscript>
@@ -53,10 +55,10 @@
                 <div class="col-6 col-sm-5 col-lg-3 ft-smm">
                     <ul class="ft-box ft-links">
                         <h3>our company</h3>
-                        <li><a href="about-us.php">About Serene Yachts</a></li>
-                        <li><a href="#">Successfull Reviews</a></li>
-                        <li><a href="packages.php">Serene Yachts Packages</a></li>
-                        <li><a href="#">Book Online Now</a></li>
+                        <li><a href="about-us">About Serene Yachts</a></li>
+                        <li><a href="#g_reviews">Successfull Reviews</a></li>
+                        <li><a href="packages">Serene Yachts Packages</a></li>
+                        <li><a href="#bokunWidget">Book Online Now</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-6 mt-0 mt-sm-5 mt-md-0 col-lg-3">
@@ -67,8 +69,8 @@
                             <p>Mon - Sun , 24 Hours</p>
                         </li>
                         <li><a href="https://maps.app.goo.gl/xSyBkL6MEuL2f8cWA" target="_blank">
-                            B-D 20 Dubai Harbour Marina - Dubai - United Arab Emirates
-                        </a></li>
+                                B-D 20 Dubai Harbour Marina - Dubai - United Arab Emirates
+                            </a></li>
                         <li><a href="mailto:info@sereneyachts.com" target="_blank">info@sereneyachts.com</a></li>
                     </ul>
                 </div>
@@ -120,7 +122,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
     integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script>
     var totalSlides = document.querySelectorAll('.swiper-slide').length;
@@ -168,7 +170,6 @@
     function updateCounter(currentIndex) {
         currentIndexSpan.textContent = currentIndex;
     }
-
 </script>
 <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -196,27 +197,27 @@
 </script>
 <!-- PACKAGES SLIDER -->
 <script>
-    var splide = new Splide( '.splide', {
-  type   : 'loop',
-  perPage: 2,
-  gap    : '1rem',
-//   focus  : 'center',
-  autoplay: true,
-  pagination:false,
-  breakpoints: {
-    640: {
-      perPage: 2,
-      gap    : '.7rem',
-    },
-    480: {
-      perPage: 1,
-      gap    : '.7rem',
-    },
-  },
-} );
+    var splide = new Splide('.splide', {
+        type: 'loop',
+        perPage: 2,
+        gap: '1rem',
+        //   focus  : 'center',
+        autoplay: true,
+        pagination: false,
+        breakpoints: {
+            640: {
+                perPage: 2,
+                gap: '.7rem',
+            },
+            480: {
+                perPage: 1,
+                gap: '.7rem',
+            },
+        },
+    });
 
-splide.mount();
+    splide.mount();
 </script>
-   </body>
+</body>
 
 </html>
