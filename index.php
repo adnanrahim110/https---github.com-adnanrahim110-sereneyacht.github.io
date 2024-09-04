@@ -125,14 +125,12 @@ $query_run = mysqli_query($con, $query);
             <div class="container">
                 <div class="row text-center justify-content-center sec-head">
                     <div class="col-12 text-uppercase">
-                        <h5 class="sub-title">Yacht type variety</h5>
-                        <h1 class="sec-title text-white">Yacht rental since '81</h1>
+                        <h5 class="sub-title">Serena Yachts</h5>
+                        <h1 class="sec-title text-white">Dubai's Top Boat Charter</h1>
                     </div>
-                    <div class="col-12 col-md-7">
+                    <div class="col-12 col-md-10">
                         <p class="text-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non animi corporis nesciunt
-                            numquam.
-                            Molestiae obcaecati vel voluptatibus impedit placeat aliquid!
+                        We exclusively provide luxurious boat charter Dubai with classy exteriors and roomy, luxurious interiors for hourly and daily rentals at the most competitive prices. Europeans make up our whole crew, all of whom have been handpicked and trained to the exacting standards of Serena Yachts. Their commitment lies on offering you the best possible service throughout your journey. At Dubai Harbour Marina, all of our luxurious yachts are tied up.
                         </p>
                     </div>
                 </div>

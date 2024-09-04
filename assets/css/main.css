@@ -2807,7 +2807,7 @@ footer p {
 }
 
 .pkgs-sec-2 .sec-title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
   letter-spacing: 0;
   margin-bottom: 30px;
@@ -2815,7 +2815,7 @@ footer p {
 
 @media screen and (min-width: 992px) {
   .pkgs-sec-2 .sec-title {
-    padding-right: 40%;
+    padding-right: 10%;
   }
 }
 

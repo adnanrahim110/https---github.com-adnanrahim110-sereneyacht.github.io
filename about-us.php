@@ -6,6 +6,7 @@ $nav_logo = "logo.png";
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once 'includes/head.php'; ?>
+
 <body class="bg-white">
     <?php include 'includes/header.php'; ?>
     <?php include 'includes/sidebar.php'; ?>
@@ -31,14 +32,18 @@ $nav_logo = "logo.png";
                                         <span class="reveal --i-6">r</span>
                                         <span class="reveal --i-7">e</span>
                                     </span>
-                                    <h5 class="sub-title">YACHTING COMPANY</h5>
-                                    <h1 class="sec-title">SUPERYACHT SINCE 1971.</h1>
+                                    <h5 class="sub-title">Serena Yacht Charter</h5>
+                                    <h1 class="sec-title">Dubai’s Coastline in Luxury with Serena Yachts</h1>
                                     <div class="row justify-content-center mt-4">
                                         <div class="col-12 col-lg-7">
                                             <p class="text-black mb-0">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-                                                quidem et aliquam
-                                                dolorem ipsum. Lorem ipsum dolor sit amet consectetur...
+                                                With Serena Yachts, you can explore the stunning coastline of Dubai,
+                                                take in the iconic sights
+                                                of the city, and create lasting memories with your loved ones. Our
+                                                experienced crew members are
+                                                there to cater to your every need and ensure that your time on board is
+                                                nothing short of
+                                                exceptional.
                                             </p>
                                         </div>
                                     </div>
@@ -79,14 +84,17 @@ $nav_logo = "logo.png";
                                 </div>
                             </div>
                             <p>
-                                We offer a simple procedure for making reservations for private yacht charters. Look
-                                through our large fleet rental options for a Dubai yacht charter that fits your needs
-                                and budget. Click 'Book Now' to reserve a yacht and fill in the required information.
-                                Communicate your particular needs to the yacht tour guide so that they can enhance your
-                                personalized private yacht charter Dubai experience. Additionally, customers can contact
-                                us by phone or WhatsApp to schedule their yacht charter. We accept credit card payments
-                                as well as cash and online transactions. For a distinctively luxury yacht charter
-                                experience in the United Arab Emirates, check out our Ultimate Value Packages.
+                                Experience the ultimate luxury with our private yacht charters in Dubai. Our booking
+                                process is simple
+                                and hassle-free. Choose from our wide range of yachts, click ‘Book Now’, and provide
+                                your details to
+                                reserve your dream yacht. Our experienced yacht tour guides will ensure a personalized
+                                experience
+                                tailored to your preferences. Contact us via phone or WhatsApp to schedule your yacht
+                                charter and enjoy
+                                flexible payment options including credit card, cash, and online transactions. Explore
+                                our Ultimate
+                                Value Packages for a truly luxurious experience in the UAE.
                             </p>
                         </div>
                     </div>
@@ -97,29 +105,31 @@ $nav_logo = "logo.png";
                             <div class="ednp-head">
                                 <div class="ednp-head-inner">
                                     <span class="sec-title-back">
-                                        <span class="reveal --i-1">s</span>
-                                        <span class="reveal --i-2">p</span>
-                                        <span class="reveal --i-3">e</span>
-                                        <span class="reveal --i-4">c</span>
-                                        <span class="reveal --i-5">i</span>
-                                        <span class="reveal --i-6">a</span>
-                                        <span class="reveal --i-7">l</span>
+                                        <span class="reveal --i-1">e</span>
+                                        <span class="reveal --i-2">x</span>
+                                        <span class="reveal --i-3">c</span>
+                                        <span class="reveal --i-4">l</span>
+                                        <span class="reveal --i-5">u</span>
+                                        <span class="reveal --i-6">s</span>
+                                        <span class="reveal --i-7">i</span>
+                                        <span class="reveal --i-8">v</span>
+                                        <span class="reveal --i-9">e</span>
                                     </span>
                                     <h5 class="sub-title">Yacht</h5>
                                     <h1 class="sec-title">Rental Offers</h1>
                                 </div>
                             </div>
                             <p>
-                                At Seven Yachts, we provide a variety of luxury yacht rental packages. With our
-                                exclusive Formula 1 boat rental package, our clients get the amazing chance to watch the
-                                Abu Dhabi Formula 1 Grand Prix every November from the luxury of our private yacht. Our
-                                party yacht is the perfect place to celebrate the start of a new year and help you
-                                remember your resolutions. We host upscale corporate parties at the D-Marin Dubai
-                                Harbour Marina on our luxurious Sunseeker and Benetti boats. We provide reasonably
-                                priced boat rental services to Moon Island, Sir Bani Yas, and Oman—hidden jewels many
-                                travelers haven't yet found—for those looking to visit off-the-beaten-path locations.
-                                For the ultimate luxury boat hire in Dubai, contact us to learn more about our special
-                                packages, which are offered at affordable rates.
+                                Take advantage of our special yacht rental offers for unforgettable experiences. Watch
+                                the Abu Dhabi
+                                Formula 1 Grand Prix from our Formula 1 boat rental package, or celebrate the new year
+                                on our party
+                                yacht. Host upscale corporate events on our Sunseeker and Benetti boats at D-Marin Dubai
+                                Harbour Marina.
+                                Discover hidden gems like Moon Island, Sir Bani Yas, and Oman with our affordable boat
+                                rental services.
+                                Contact us to learn more about our exclusive packages and enjoy the ultimate luxury boat
+                                hire in Dubai.
                             </p>
                         </div>
                     </div>
@@ -149,11 +159,11 @@ $nav_logo = "logo.png";
                                 <span class="reveal --i-5">l</span>
                                 <span class="reveal --i-6">e</span>
                             </span>
-                            <h5 class="sub-title">NAUTICAL COMPANY</h5>
+                            <h5 class="sub-title">Serene Yacht</h5>
                             <h1 class="sec-title">MEET OUR CREW</h1>
                             <p class="text-dark px-5">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quidem et aliquam
-                                dolorem ipsum. Lorem ipsum dolor sit amet consectetur...
+                                Set out on an adventure with our devoted and knowledgeable crew, who are committed to
+                                giving you a memorable sailing experience.
                             </p>
                         </div>
                     </div>
@@ -170,8 +180,8 @@ $nav_logo = "logo.png";
                                     <p>
                                         <span>Director</span>
                                         <span class="crew-lang">
-                                                <img src="assets/images/united-kingdom.png" alt="">
-                                                <img src="assets/images/france.png" alt="">
+                                            <img src="assets/images/united-kingdom.png" alt="">
+                                            <img src="assets/images/france.png" alt="">
                                         </span>
                                     </p>
                                 </div>
@@ -187,8 +197,8 @@ $nav_logo = "logo.png";
                                     <p>
                                         <span>Director</span>
                                         <span class="crew-lang">
-                                                <img src="assets/images/united-kingdom.png" alt="">
-                                                <img src="assets/images/france.png" alt="">
+                                            <img src="assets/images/united-kingdom.png" alt="">
+                                            <img src="assets/images/france.png" alt="">
                                         </span>
                                     </p>
                                 </div>
@@ -204,8 +214,8 @@ $nav_logo = "logo.png";
                                     <p>
                                         <span>Director</span>
                                         <span class="crew-lang">
-                                                <img src="assets/images/united-kingdom.png" alt="">
-                                                <img src="assets/images/france.png" alt="">
+                                            <img src="assets/images/united-kingdom.png" alt="">
+                                            <img src="assets/images/france.png" alt="">
                                         </span>
                                     </p>
                                 </div>
@@ -221,8 +231,8 @@ $nav_logo = "logo.png";
                                     <p>
                                         <span>Director</span>
                                         <span class="crew-lang">
-                                                <img src="assets/images/united-kingdom.png" alt="">
-                                                <img src="assets/images/france.png" alt="">
+                                            <img src="assets/images/united-kingdom.png" alt="">
+                                            <img src="assets/images/france.png" alt="">
                                         </span>
                                     </p>
                                 </div>
@@ -234,3 +244,4 @@ $nav_logo = "logo.png";
         </section>
     </main>
     <?php include 'includes/footer.php'; ?>
+

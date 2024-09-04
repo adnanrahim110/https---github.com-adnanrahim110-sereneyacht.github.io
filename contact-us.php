@@ -41,14 +41,14 @@ $nav_logo = "logo.png";
                                     <span class="reveal --i-7">e</span>
                                     <span class="reveal --i-8">r</span>
                                 </span>
-                                <h5 class="sub-title">NAUTICAL COMPANY</h5>
+                                <h5 class="sub-title">Serene Yachts</h5>
                                 <h1 class="sec-title">Feel free to Contact Us</h1>
                                 <div class="row justify-content-center mt-4">
                                     <div class="col-12 col-lg-7">
                                         <p class="text-black-50 mb-0">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-                                            quidem et aliquam
-                                            dolorem ipsum. Lorem ipsum dolor sit amet consectetur...
+                                            Our team is available to assist you with booking your private yacht charter
+                                            and answering any inquiries you may have. We look forward to providing you
+                                            with an unforgettable experience.
                                         </p>
                                     </div>
                                 </div>
@@ -67,4 +67,6 @@ $nav_logo = "logo.png";
         </section>
         <?php include 'includes/contact-form.php' ?>
     </main>
+
     <?php include 'includes/footer.php'; ?>
+
