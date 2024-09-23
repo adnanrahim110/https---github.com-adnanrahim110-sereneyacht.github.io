@@ -1,7 +1,9 @@
 @media screen and (max-width: 480px) {
+
     .available-sec {
         padding-inline: 1rem;
     }
+
 
     .select-container {
         max-width: 400px;
@@ -869,6 +871,68 @@
 }
 
 @media screen and (max-width: 767px) {
+    .slide-content {
+        width: 100%;
+        padding-inline: 1rem;
+        left: 0 !important;
+        right: 0 !important;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .slide-content.sc_1 h1 {
+        font-size: 3rem;
+    }
+
+    .slide-content .custom-btn {
+        font-size: 11px;
+    }
+
+    .slide-content.sc_1 .custom-btn {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .slide-content.sc_1 h2 {
+        font-size: 1.7rem;
+    }
+
+    .slide-content.sc_2 h1 {
+        font-size: 2.5rem;
+    }
+
+    .slide-content.sc_2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .slide-content.sc_3 h1 {
+        font-size: 4rem;
+    }
+
+    .slide-content.sc_3 h2 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .slide-content.sc_4 h1 {
+        font-size: 2.2rem;
+    }
+
+    .slide-content.sc_4 h2 {
+        font-size: 2rem;
+    }
+
+    .slide-content.sc_5 {
+        width: 100%;
+        display: block;
+        transform: none;
+        top: 40%;
+    }
+
+    .slide-content.sc_5 h1 {
+        font-size: 2rem;
+    }
+
     .header-top {
         display: none;
     }
@@ -1053,6 +1117,44 @@
     .navbar-collapse {
         top: 2px;
     }
+
+    .slide-content.sc_1 h1 {
+        font-size: 8vw;
+    }
+
+    .slide-content.sc_1 h2 {
+        font-size: 4.5vw;
+    }
+
+    .slide-content.sc_2 h1 {
+        font-size: 4vw;
+    }
+
+    .slide-content.sc_2 h2 {
+        font-size: 3.3vw;
+    }
+
+    .slide-content.sc_3 h1 {
+        font-size: 9.5vw;
+    }
+
+    .slide-content.sc_3 h2 {
+        font-size: 4vw;
+    }
+
+    .slide-content.sc_4 h2 {
+        font-size: 4vw;
+    }
+
+    .slide-content.sc_4 h1 {
+        font-size: 5vw;
+    }
+
+    .slide-content.sc_4 {
+        left: 5%;
+        top: 45%;
+    }
+
 
     .as-btn div {
         max-width: 100%;

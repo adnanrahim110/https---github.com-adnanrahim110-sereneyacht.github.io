@@ -1,4 +1,7 @@
-<?php $activePage = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], "/") + 1); ?>
+<?php $activePage = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], "/") + 1);
+$package_pages = ["birthday-packages.php", "anniversary-proposal-packages.php", "live-bbq-dinner-packages.php"];
+$ispackagesActive = in_array($activePage, $package_pages);
+?>
 <header>
   <nav class="navbar navbar-expand-lg <?= $nav_class; ?>" id="NavBar">
     <div class="container-fluid">
@@ -20,7 +23,7 @@
               href="https://sereneyachts.com/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?= $activePage == "packages.php" ? 'active' : '' ?>" href="packages">Packages</a>
+            <a class="nav-link <?= $ispackagesActive ? 'active' : '' ?>" href="packages">Packages</a>
           </li>
           <li class="nav-item">
             <a class="nav-link <?= $activePage == "about-us.php" ? 'active' : '' ?>" href="about-us">About</a>

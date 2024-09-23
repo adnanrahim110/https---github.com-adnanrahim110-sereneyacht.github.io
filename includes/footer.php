@@ -20,10 +20,6 @@
 <div id="g_reviews">
     <script src="https://widget.trustmary.com/hsLkJQHY0"></script>
 </div>
-<div class="bokunWidget" id="bokunWidget"
-    data-src="https://widgets.bokun.io/online-sales/6dbc1ca4-5a8e-4187-b0de-8bac32e6b82e/experience-calendar/901778">
-</div>
-<noscript>Please enable javascript in your browser to book</noscript>
 <footer class="mt-3">
     <div class="footer-wrapper">
         <div class="container">
@@ -46,8 +42,8 @@
                                 <div class="cash_pay"><span>cash</span></div>
                             </div>
                             <a href="https://www.getyourguide.com/-s436849" target="_blank" class="getyourguide mt-2">
-                                <img src="https://gyg.me/kUtga42u" width="100px" height="auto"
-                                    style="border: 1px solid #c6c8d0" alt="GetYourGuide | Serene Yachts" />
+                                <img src="https://gyg.me/kUtga42u" width="100px" height="auto" style="border: 1px solid #c6c8d0"
+                                    alt="GetYourGuide | Serene Yachts" />
                             </a>
                         </div>
                     </div>
@@ -143,17 +139,17 @@
     var swiper = new Swiper('.swiper-container', {
         loop: true,
         autoplay: {
-            delay: 5000,
+            delay: 1500,
             disableOnInteraction: false,
         },
         on: {
-            init: function () {
+            init: function() {
                 updateCounter(this.realIndex + 1);
             },
-            slideChange: function () {
+            slideChange: function() {
                 updateCounter(this.realIndex + 1);
             },
-            slideChangeTransitionStart: function () {
+            slideChangeTransitionStart: function() {
                 // Reset the stroke-dasharray for the new slide
                 spinnerSegment.style.strokeDasharray = '0, 100';
                 setTimeout(() => {
@@ -199,9 +195,8 @@
 <script>
     var splide = new Splide('.splide', {
         type: 'loop',
-        perPage: 2,
+        perPage: 3,
         gap: '1rem',
-        //   focus  : 'center',
         autoplay: true,
         pagination: false,
         breakpoints: {
@@ -217,6 +212,20 @@
     });
 
     splide.mount();
+</script>
+
+<!-- Alertify JS -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+<script>
+    <?php
+    if (isset($_SESSION['message'])) { ?>
+        alertify.set('notifier', 'position', 'bottom-right');
+        alertify.success('<?= $_SESSION['message']; ?>');
+    <?php
+        unset($_SESSION['message']);
+    }
+    ?>
 </script>
 </body>
 

@@ -16,11 +16,10 @@ $nav_logo = "logo.png";
         <div class="row justify-content-center align-items-center">
           <div class="col-md-12 text-center">
             <h1>FAQ</h1>
-            <p class="text-white">Navigate through your queries and concerns with our comprehensive FAQs for a seamless
-
-               
-                          yacht
-              charter experience!</p>
+            <p class="text-white">
+              Navigate through your queries and concerns with our comprehensive FAQs for a seamless yacht charter
+              experience!
+            </p>
           </div>
         </div>
       </div>

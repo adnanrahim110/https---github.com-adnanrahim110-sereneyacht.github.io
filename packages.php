@@ -117,7 +117,7 @@ $nav_logo = "logo.png";
                 </div>
               </div>
               <div class="pkg-card_bottom card-footer border-0">
-                <a href="#" class="pkg-card_btn">View More</a>
+                <a href="birthday-packages" class="pkg-card_btn">View More</a>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ $nav_logo = "logo.png";
                 </div>
               </div>
               <div class="card-body border-0">
-                <a href="#" class="card-title">Anniversary / Proposal Package</a>
+                <a href="anniversary-proposal-packages" class="card-title">Anniversary / Proposal Package</a>
                 <div class="card-text">
                   <p>
                     Whether it is a few months of being together or over many years, anniversaries are always memorable,
@@ -177,7 +177,7 @@ $nav_logo = "logo.png";
                 </div>
               </div>
               <div class="pkg-card_bottom card-footer border-0">
-                <a href="#" class="pkg-card_btn">View More</a>
+                <a href="anniversary-proposal-packages" class="pkg-card_btn">View More</a>
               </div>
             </div>
           </div>
@@ -189,14 +189,13 @@ $nav_logo = "logo.png";
                 </div>
               </div>
               <div class="card-body border-0">
-                <a href="#" class="card-title">Corporate Party</a>
+                <a href="live-bbq-dinner-packages" class="card-title">LIVE BBQ DINNER</a>
                 <div class="card-text">
                   <p>
-                    A lavish boat rental offers a fantastic venue for an informal celebration and creates a moment that
-                    will never be forgotten. We give a variety of party boat rental packages that are perfect for
-                    planning an amazing boat trip for your special occasions, both in Dubai Jumeirah and other parts of
-                    the city. Enjoy the greatest party boat rentals in Dubai by taking advantage of our lifetime rental
-                    rates on our opulent Sunseeker.
+                    Join us for a live BBQ dinner on one of our luxurious yachts in Dubai. Enjoy a mouthwatering feast
+                    prepared by our chefs as you sail along the stunning coastline. Perfect for any special occasion,
+                    our party boat rental packages ensure a seamless and unforgettable experience. Book your spot today
+                    for an evening of fun and relaxation with Serene Yachts.
                   </p>
                 </div>
                 <div class="pkg-card_ships-all">
@@ -209,7 +208,7 @@ $nav_logo = "logo.png";
                       </div>
                       <div class="col-lg-6">
                         <div class="pkg-chi_details">
-                          <h4>Sleek (Corporate Party)</h4>
+                          <h4>Sleek (Live BBQ Dinner)</h4>
                           <span class="chi_d-price">
                             <span>AED 15120&nbsp;</span><span>+ VAT</span>
                           </span>
@@ -226,7 +225,7 @@ $nav_logo = "logo.png";
                       </div>
                       <div class="col-lg-6">
                         <div class="pkg-chi_details">
-                          <h4>Marya (Corporate Party)</h4>
+                          <h4>Marya (Live BBQ Dinner)</h4>
                           <span class="chi_d-price">
                             <span>AED 15120&nbsp;</span><span>+ VAT</span>
                           </span>
@@ -237,7 +236,7 @@ $nav_logo = "logo.png";
                 </div>
               </div>
               <div class="pkg-card_bottom card-footer border-0">
-                <a href="#" class="pkg-card_btn">View More</a>
+                <a href="live-bbq-dinner-packages" class="pkg-card_btn">View More</a>
               </div>
             </div>
           </div>
@@ -446,4 +445,3 @@ $nav_logo = "logo.png";
     </section>
   </main>
   <?php include 'includes/footer.php'; ?>
-

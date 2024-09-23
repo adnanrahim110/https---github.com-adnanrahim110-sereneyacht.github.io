@@ -21,15 +21,17 @@ if (isset($_GET['id'])) {
     // Check if a yacht with the given id exists
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        ?>
+?>
         <!DOCTYPE html>
         <html lang="en">
         <?php include_once 'includes/head.php'; ?>
+
         <body class="bg-white">
             <?php include 'includes/header.php'; ?>
             <?php include 'includes/sidebar.php'; ?>
             <main class="position-relative z-0">
-                <section class="ship-hero" style="background-image:linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<?= $row['bg_img_path'] ?>);">
+                <section class="ship-hero"
+                    style="background-image:linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(<?= $row['bg_img_path'] ?>);">
                     <div class="container h-100">
                         <div class="sh-caption text-white">
                             <p>nautical compan</p>
@@ -48,7 +50,7 @@ if (isset($_GET['id'])) {
                                     <h3 class="sd-title"><?= $row['name'] ?> Yacht</h3>
                                     <div class="sdc-content_text">
                                         <?php
-                                        $detailed_text = explode(':', $row['detailed_text']);
+                                        $detailed_text = explode('|', $row['detailed_text']);
                                         foreach ($detailed_text as $item) {
                                             echo '<p>' . $item . '</p>';
                                         }
@@ -91,16 +93,17 @@ if (isset($_GET['id'])) {
                                         <div class="sdc-content_specs-title">
                                             <h5 class="m-0">Gallery</h5>
                                         </div>
-                                    <div class="sdc-content_gallery">
-                                    <?php 
-                                    $images = [];
-                                    while ($img_row = $img_result->fetch_assoc()) { 
-                                        ?>
-                                        <div class="sdc-cg_item">
-                                            <img class="w-100 h-100" src="assets/images/<?= strtolower($row['name']) ?>/<?= $img_row['image_path'] ?>" alt="">
+                                        <div class="sdc-content_gallery">
+                                            <?php
+                                            $images = [];
+                                            while ($img_row = $img_result->fetch_assoc()) {
+                                            ?>
+                                                <div class="sdc-cg_item">
+                                                    <img class="w-100 h-100"
+                                                        src="assets/images/<?= strtolower($row['name']) ?>/<?= $img_row['image_path'] ?>" alt="">
+                                                </div>
+                                            <?php } ?>
                                         </div>
-                                        <?php } ?>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -112,23 +115,20 @@ if (isset($_GET['id'])) {
                                             <div class="row">
                                                 <div class="col-12">
                                                     <label for="name">Name:</label>
-                                                    <input type="text" class="form-control" name="name" id="name"
-                                                        placeholder="Name">
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
                                                 </div>
                                                 <div class="col-12">
                                                     <label for="email">Email:</label>
-                                                    <input type="email" class="form-control" name="email" id="email"
-                                                        placeholder="Email">
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                                                 </div>
                                                 <div class="col-12">
                                                     <label for="phone">Phone Number:</label>
-                                                    <input type="tel" class="form-control" name="phone" id="phone"
-                                                        placeholder="Phone">
+                                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone">
                                                 </div>
                                                 <div class="col-12">
                                                     <label for="message">Message:</label>
-                                                    <textarea type="text" class="form-control" rows="3" name="message"
-                                                        id="message" placeholder="Message"></textarea>
+                                                    <textarea type="text" class="form-control" rows="3" name="message" id="message"
+                                                        placeholder="Message"></textarea>
                                                 </div>
                                             </div>
                                             <div class="sdc-price col-12 text-center">
@@ -147,7 +147,7 @@ if (isset($_GET['id'])) {
                     </div>
                 </section>
             </main>
-            <?php
+    <?php
     } else {
         echo "<div class='container mt-5'><div class='alert alert-warning'>No ship found.</div></div>";
     }
@@ -156,5 +156,5 @@ if (isset($_GET['id'])) {
 } else {
     echo "<div class='container mt-5'><div class='alert alert-warning'>No ship id provided.</div></div>";
 }
-?>
+    ?>
     <?php include 'includes/footer.php'; ?>

@@ -7,8 +7,8 @@
                         <h1 class="sec-title title2 text-white"><?= $cta1_title ?></h1>
                     </div>
                     <div class="cta-1-btns d-flex justify-content-center">
-                        <a href="#" class="custom-btn btn-1"><?= $cta1_btn1 ?></a>
-                        <a href="#" class="custom-btn btn-2"><?= $cta1_btn2 ?></a>
+                        <a href="packages.php" class="custom-btn btn-1">Explore</a>
+                        <a href="#booking" class="custom-btn btn-2">Book Now</a>
                     </div>
                 </div>
             </div>
